@@ -12,6 +12,9 @@ gem 'sqlite3', group: [:development, :test]
 gem 'pg', group: :production
 
 gem 'rails_12factor', group: :production
+gem 'figaro'
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github:'activeadmin/inherited_resources'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
